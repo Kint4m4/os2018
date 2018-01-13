@@ -1,0 +1,45 @@
+kint4m4   2558  0.0  0.1 449896  8644 ?        Sl   21:24   0:00 /usr/lib/x86_64
+root      2660  0.0  0.1 274820  9580 ?        Ssl  21:27   0:00 /usr/sbin/cups-
+root      2804  0.0  0.0      0     0 ?        S    21:29   0:00 [kworker/3:0]
+root      4292  0.0  0.0      0     0 ?        S    21:31   0:00 [kworker/0:0]
+root      4429  0.0  0.0      0     0 ?        S    21:35   0:00 [kworker/u8:2]
+kint4m4   4437  0.0  0.0  31232  5376 pts/18   Ss+  21:35   0:00 bash
+kint4m4   4456  0.0  0.0  31476  3572 pts/2    S+   21:35   0:00 nano 02.report.
+root      4490  0.0  0.0      0     0 ?        S    21:38   0:00 [kworker/1:2]
+root      4552  0.0  0.0      0     0 ?        S    21:41   0:00 [kworker/2:1]
+root      4555  0.0  0.0      0     0 ?        S    21:41   0:00 [kworker/3:2]
+root      4598  0.0  0.0      0     0 ?        S    21:43   0:00 [kworker/1:0]
+root      4611  0.0  0.0      0     0 ?        S    21:45   0:00 [kworker/u8:0]
+root      4643  0.1  0.0      0     0 ?        S    21:48   0:00 [kworker/u8:3]
+root      4644  0.0  0.0      0     0 ?        S    21:48   0:00 [kworker/1:1]
+kint4m4   4677  0.3  0.0  31136  5100 pts/19   Ss   21:49   0:00 bash
+kint4m4   4688  0.0  0.0  45960  3332 pts/19   R+   21:49   0:00 ps -aux
+
+kint4m4   4808  0.8  0.4 647304 36664 pts/19   Sl+  21:54   0:00 gnome-calculator
+kint4m4   4835  0.0  0.0  22820  1032 pts/2    S+   21:54   0:00 grep --color=auto calculator
+
+SigQ:	0/31227
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	453
+nonvoluntary_ctxt_switches:	58
+
+kint4m4@kint4m4-Aspire-F5-573G:~$ kill -STOP 4808
+kint4m4@kint4m4-Aspire-F5-573G:~$ kill -cont 4808
+
+kint4m4@kint4m4-Aspire-F5-573G:~$ kill -KILL 4808
+
