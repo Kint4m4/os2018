@@ -1,0 +1,11 @@
+kint4m4@kint4m4-Aspire-F5-573G:/bin$ ls | grep list
+kint4m4@kint4m4-Aspire-F5-573G:/bin$ cat /etc/passwd | wc -l
+42
+kint4m4@kint4m4-Aspire-F5-573G:/bin$ free -h | grep Mem: | awk '{print $2}'
+7.7G
+kint4m4@kint4m4-Aspire-F5-573G:/bin$ grep processor /proc/cpuinfo | wc -l
+4
+kint4m4@kint4m4-Aspire-F5-573G:~$ find ~/Pictures -iname '*.jpg' | wc -l
+0
+
+
