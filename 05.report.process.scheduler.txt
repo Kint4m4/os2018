@@ -1,0 +1,10 @@
+kint4m4@kint4m4-Aspire-F5-573G:~$ cat /proc/sched_debug | grep systemd
+         systemd  1179        12.772276        14   120         0.000000        17.283315         0.000000 0 0 /autogroup-98
+ systemd-timesyn   609         1.315297        45   120         0.000000        11.828585         0.000000 0 0 /autogroup-31
+  systemd-logind   796        11.836381       547   120         0.000000        40.167797         0.000000 0 0 /autogroup-43
+         systemd     1       295.769086      1691   120         0.000000      1052.958296         0.000000 0 0 /autogroup-2
+ systemd-journal   251        68.678353       963   120         0.000000       264.092145         0.000000 0 0 /autogroup-9
+   systemd-udevd   271       914.990815       600   120         0.000000       692.422324         0.000000 0 0 /autogroup-12
+kint4m4@kint4m4-Aspire-F5-573G:~$ cat /proc/1/sched | grep nr_switches
+nr_switches                                  :                 1691
+
