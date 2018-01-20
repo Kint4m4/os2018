@@ -1,0 +1,7 @@
+kint4m4@kint4m4-Aspire-F5-573G:~$ ps -aux | grep firefox
+kint4m4   2399  8.5  4.3 2299844 347276 ?      Sl   09:39   0:58 /usr/lib/firefox/firefox
+kint4m4   2661  0.0  0.0  22820   932 pts/17   S+   09:50   0:00 grep --color=auto firefox
+kint4m4@kint4m4-Aspire-F5-573G:~$ ps -o nlwp 2399
+NLWP
+  49
+
